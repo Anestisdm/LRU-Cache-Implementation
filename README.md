@@ -23,10 +23,10 @@ The memory space occupied by a cache is usually much smaller than the space occu
 
 We used the following data structures to implement the LRU Cache.
 
-i) Hashing with Separate Chaining
+i) Hashing with Separate Chaining<br/>
   We used Separate Chaining Hashing to achieve fast store and search times.
   
-ii)Two Double Linked Lists
+ii)Two Double Linked Lists<br/>
 One list was used to implement Separate Chaining Hashing and the second for the implementation of the replacement policy Least
 Recently Used.
 
