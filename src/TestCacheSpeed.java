@@ -10,10 +10,10 @@ public class TestCacheSpeed {
         CacheImpl<String, String> cache = new CacheImpl(cachesize);
 
         //give path to the dat file
-        String dataFile = "datasets/dataset-1000/data-1000.dat";
+        String dataFile = "src/datasets/dataset-1000/data-1000.dat";
 
         //give path to the workload file
-        String requestsFile = "datasets/dataset-1000/requests-10000.dat";
+        String requestsFile = "src/datasets/dataset-1000/requests-10000.dat";
 
         DataSource dataSource = new DataSource(dataFile);
         WorkloadReader requestReader = new WorkloadReader(requestsFile);
