@@ -1,4 +1,4 @@
-# Αγνοήστε τους χρόνους εκτέλεσης, οι χρόνοι διαφέρουν ανάλογα με την ταχύτητα της CPU
+# Ignore runtime, times vary depending on CPU speed
 
 dataset: dataset-1000/data-1000.dat
 requests: dataset-1000/requests-10000.dat
