@@ -20,3 +20,31 @@ Caches are auxiliary memories used to temporarily store data for future use. In 
 The memory space occupied by a cache is usually much smaller than the space occupied by the data source. When the cache space is filled with records, each time the process Store is called, the cache must delete a record in order to store the new data.The algorithm used to select the record to be deleted is called the Replacement Policy and plays a very important role in caching performance. The most common replacement policy is the Least Recently Used (LRU) policy. According to this policy, when the cache needs to delete a record, it deletes the record to which the last access is the least recent.
 
 ### 3 - Implementation
+
+We used the following data structures to implement the LRU Cache.
+
+i) Hashing with Separate Chaining
+  We used Separate Chaining Hashing to achieve fast store and search times.
+  
+ii)Two Double Linked Lists
+One list was used to implement Separate Chaining Hashing and the second for the implementation of the replacement policy Least
+Recently Used.
+
+### 4 - Check the stats
+
+**Workstation Specifications**
+- Windows 10 or Linux or MacOS, 64 bit
+- RAM, 8GB required
+- 128 GB Storage 
+- 4 Core CPU
+
+**Steps to run the cache and check the stats**
+1. Clone this repository to Intellij
+2. Run 'TestCacheSpeed' application from Intellij
+3. Wait until cache serves all the requests
+4. Check the stats to be printed in terminal
+
+Note: If you want you can change the data file or the file with requests with the other files that provided with much more data to evaluate the system
+
+### 5 - User Support
+For help or new feature suggestions you can contanct with the development team.
