@@ -48,7 +48,7 @@ Recently Used.
 3. Wait until cache serves all the requests
 4. Check the stats to be printed in terminal
 
-Note: If you want you can change the data file or the file with requests with the other files that provided with much more data to evaluate the system
+Note: If you want you can change the data file or the file with requests with the other files that provided with much more data to evaluate the system.
 
 ### 5 - User Support
 For help or new feature suggestions you can contanct with the development team.
