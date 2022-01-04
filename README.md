@@ -26,9 +26,13 @@ We used the following data structures to implement the LRU Cache.
 i) Hashing with Separate Chaining<br/>
   We used Separate Chaining Hashing to achieve fast store and search times.
   
-ii)Two Double Linked Lists<br/>
-One list was used to implement Separate Chaining Hashing and the second for the implementation of the replacement policy Least
+ii)Double Linked Lists<br/>
+Double Linked Lists was used to implement Separate Chaining Hashing and for the implementation of the replacement policy Least
 Recently Used.
+
+
+![HashMap drawio ](https://user-images.githubusercontent.com/72802400/148103898-f028db9b-e188-43b0-9745-e0089dd1fde3.png)
+
 
 ### 4 - Check the stats
 
