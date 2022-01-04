@@ -21,7 +21,7 @@ The memory space occupied by a cache is usually much smaller than the space occu
 
 ### 3 - Implementation
 
-We used the following data structures to implement the LRU Cache.
+To implement the LRU Cache we use a custom HashMap with the following custom data structures:
 
 i) Hashing with Separate Chaining<br/>
   We used Separate Chaining Hashing to achieve fast store and search times.
